@@ -1,0 +1,131 @@
+/* main.css */
+
+@import url('base.css');
+@import url('layout.css');
+@import url('components.css');
+@import url('themes.css');
+
+
+/* Welcome */
+
+.Welcome .text-l {
+    margin-right: 0.5em;
+    font-weight: var(--font-weight-ms);
+}
+
+.Welcome i {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.Welcome .container {
+    margin-bottom: 1em;
+}
+
+/* Menu */
+.Menu .list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 24px 0px 24px 0px;
+}
+
+.Menu .item {
+    text-align: center;
+}
+
+.Menu .text-m {
+    margin-top: 8px;
+    font-weight: var(--font-weight-l);
+    color: var(--black-color);
+}
+
+.Menu .item i {
+    font-size: 24px;
+    background-color: var(--white-color);
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    align-content: center;
+}
+
+/* verify */
+.verify .card {
+    border: 2px solid var(--primary-color);
+    border-radius: 16px;
+}
+
+/* chat */
+.chat .card {
+    background-color: var(--secondary-background-color);
+}
+
+.chat i,
+.verify i {
+    font-size: 32px;
+    color: var(--primary-color);
+}
+
+/* Appointment */
+.Appointment {
+    margin-bottom: 2em;
+}
+
+.Appointment .image {
+    border-radius: 16px;
+}
+
+/* News */
+.News .card {
+    height: 150px;
+    padding: 0;
+    border-radius: 16px;
+}
+
+.News .topic {
+    margin-bottom: 16px;
+}
+
+
+.News .image {
+    margin-right: 1em;
+    height: 100%;
+    width: 150px;
+    background-size: cover;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.News h4 {
+    margin: 0;
+}
+
+.News i {
+    margin-left: 8px;
+}
+
+.long-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: var(--text-ms-font-size);
+    font-weight: var(--text-ms-font-weight);
+    color: var(--gray-color);
+    max-height: 3.2em;
+}
+
+.News button {
+    margin-top: 1em;
+}
+
+/* Appointment and News */
+.Appointment .text-l,
+.News .text-l {
+    font-weight: var(--font-weight-m);
+}
+
+.Appointment .row,
+.News .topic .row {
+    margin-bottom: 1em;
+    align-items: flex-end;
+}

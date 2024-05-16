@@ -1,0 +1,72 @@
+@import url('themes.css');
+
+/* base.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body h1{
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+    color: var(--gray-color);
+}
+body h2{
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-weight);
+    color: var(--gray-color);
+}
+body h3{
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+    color: var(--black-color);
+}
+
+body h4{
+    font-size: var(--h3-font-size);
+    font-weight: var(--h3-font-weight);
+    color: var(--black-color);
+}
+
+body .text-l{
+    font-size: var(--text-l-font-size);
+    font-weight: var(--text-l-font-weight);
+    color: var(--black-color);
+}
+
+body .text-m{
+    font-size: var(--text-m-font-size);
+    font-weight: var(--text-m-font-weight);
+    color: var(--gray-color);
+    padding: 0%;
+    margin: 0%;
+}
+
+body .text-ms{
+    font-size: var(--text-ms-font-size);
+    font-weight: var(--text-ms-font-weight);
+    color: var(--gray-color);
+}
+
+body .text-s{
+    font-size: var(--text-s-font-size);
+    font-weight: var(--text-s-font-weight);
+    color: var(--gray-color);
+}
+
+body .text-ss{
+    font-size: var(--text-ss-font-size);
+    font-weight: var(--text-ss-font-weight);
+    color: var(--gray-color);
+}
+
+
+/* Set global styles */
+body {
+    font-family: 'Kanit', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}

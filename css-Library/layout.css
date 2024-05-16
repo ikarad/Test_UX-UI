@@ -1,0 +1,33 @@
+@import url('themes.css');
+
+/* layout.css */
+
+/* Style for the header */
+header {
+    width: -webkit-fill-available;
+    padding:1em;
+    background: rgba(147, 231, 203, 0.5);
+    position: static;
+}
+
+/* Style for the main content */
+main {
+    padding: 1.5em 1em 7em 1em;
+    border-radius: 24px 24px 0px 0px;
+    background-color: var(--white-color);
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}

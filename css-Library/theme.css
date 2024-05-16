@@ -1,0 +1,42 @@
+/* themes.css */
+
+/* Light theme */
+:root {
+    --primary-color: #00AC7B;
+    --primary-background-color: #f4f4f4;
+    --secondary-background-color: #DFF6ED;
+    --black-color: #3D3D3D;
+    --gray-color: #6D6D6D;
+    --gray-400-color: #888888;
+    --white-color: #fff;
+    /* font weight */
+    --font-weight-xl: 900;
+    --font-weight-l: 700;
+    --font-weight-m: 500;
+    --font-weight-ms: 400;
+    /* header size */
+    --h1-font-size: 24px;
+    --h1-font-weight: var(--font-weight-xl);
+    --h2-font-size: 20px;
+    --h2-font-weight: var(--font-weight-xl);
+    --h3-font-size: 18px;
+    --h3-font-weight: var(--font-weight-xl);
+    --h4-font-size: 16px;
+    --h4-font-weight: var(--font-weight-l);
+    /* text color */
+    --text-primary-green-color:var(--primary-color);
+    --text-primary-black-color: var(--black-color);
+    --text-primary-gray-color: var(--gray-color);
+    --text-primary-white-color: var(--white-color);
+    /* text size */
+    --text-l-font-size: 16px;
+    --text-l-font-weight: var(--font-weight-xl);
+    --text-m-font-size: 14px;
+    --text-m-font-weight: var(--font-weight-m);
+    --text-ms-font-size: 12px;
+    --text-ms-font-weight: var(--font-weight-m);
+    --text-s-font-size: 10px;
+    --text-s-font-weight: var(--font-weight-m);
+    --text-ss-font-size: 8px;
+    --text-ss-font-weight: var(--font-weight-m);
+}
